@@ -1,0 +1,25 @@
+package DAY1;
+
+public class A {
+public static void main(String[] args) {
+	int a=10,b=0;
+	System.out.println("zjhbckac0");
+	System.out.println("zjhbckac0");
+	System.out.println("zjhbckac0");
+	System.out.println("zjhbckac0");
+	System.out.println("zjhbckac0");
+	try
+	{
+	System.out.println(a/b);
+	}
+	catch (Exception e) {
+		// TODO: handle exception
+		System.out.println("sdahcbaskjljjchdj");
+	}
+	finally {
+	System.out.println("zjhbckac0");
+	System.out.println("zjhbckac0");
+	}
+
+}
+}

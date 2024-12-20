@@ -1,0 +1,12 @@
+package DAY1;
+
+public class A {
+public static void main(String[] args) {
+	System.out.println("xchbvbzvn");
+	m1();
+}
+public static void m1()
+{
+	System.out.println("sdjhdff");
+}
+}

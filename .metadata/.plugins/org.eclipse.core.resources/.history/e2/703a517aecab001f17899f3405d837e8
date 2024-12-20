@@ -1,0 +1,15 @@
+package Collecton;
+
+import java.util.List;
+import java.util.Stack;
+
+public class Stak {
+ public static void main(String[] args) {
+	 int arr[]=new int[] {10,20,32,43,23,432,43};
+	List li=new Stack();
+	for(int x=0;x<li.size();x++)
+	{
+	   li.add(li[x]);
+	}
+}
+}

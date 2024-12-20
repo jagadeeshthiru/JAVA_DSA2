@@ -1,0 +1,21 @@
+package com;
+
+public class Anag {
+public static void main(String[] args) {
+   String s="listen";
+   String s1="silent";
+   for(int x=0;x<s.length();x++)
+   {
+	   char c1=s.charAt(x);
+	   char c2=s.charAt(x+1);
+	   if(c1>c2)
+	   {
+		   char temp=c1;
+		   c1=c2;
+		   c2=temp;
+	   }
+
+   }
+   System.out.println(s);
+}
+}

@@ -1,0 +1,12 @@
+package DAY1;
+
+public class A {
+	public static void main(String[] args) {
+		String s="Hello all good morning";
+	     StringBuffer sb=new StringBuffer(s);
+	     sb.replace(0, 0, "HI");
+	     System.out.println(sb);
+	}
+}
+
+

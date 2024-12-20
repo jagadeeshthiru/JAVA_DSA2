@@ -1,0 +1,30 @@
+package DAY1;
+
+public class A {
+	public static void main(String[] args) {
+		int a[]=new int[] {10,2,3,422,53};
+		int k=11;
+		int count=0;
+		for(int x=0;x<a.length;x++)
+		{
+			if(a[x]==k)
+			{
+				count=1;
+			}
+		}
+		if(count>=1)
+		{
+			System.out.println(k+" :is presented");
+
+		}
+		else
+		{
+			System.out.println(k+" :is not presented");
+
+		}
+		
+	    
+	}
+}
+
+

@@ -1,0 +1,7 @@
+package Collecton;
+
+public class DLS {
+ public static void main(String[] args) {
+	List l1=new Linked
+}
+}

@@ -1,0 +1,19 @@
+package Collecton;
+
+import java.util.List;
+import java.util.Stack;
+
+public class Stak {
+ public static void main(String[] args) {
+	 int arr[]=new int[] {10,20,32,43,23,432,43};
+	Stack li=new Stack();
+	for(int x=0;x<arr.length;x++)
+	{
+	   li.push(arr[x]);
+	   
+	   //li.add(arr[x]);
+	}
+	li.peek();
+	System.out.println(li);
+}
+}

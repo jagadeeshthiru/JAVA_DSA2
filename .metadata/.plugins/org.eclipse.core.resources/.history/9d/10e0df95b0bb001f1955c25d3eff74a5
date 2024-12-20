@@ -1,0 +1,19 @@
+package DAY1;
+
+public class A {
+	public static void m1()
+	{
+		m2();
+		System.out.println("sdjhdff");
+	}
+	public static void m2()
+	{
+	   m1();
+	   System.out.println("znzbvckb");
+	}
+public static void main(String[] args) {
+	System.out.println("xchbvbzvn");
+	m2();
+}
+
+}

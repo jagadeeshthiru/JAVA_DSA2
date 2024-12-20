@@ -1,0 +1,22 @@
+package Pattern;
+
+public class PAT {
+public static void main(String[] args) {
+	int rows=5,cols=5,temp=rows+1;
+	for(int r=1;r<=rows;r++)
+	{
+	    for(int c=1;c<=cols;c++)
+	    {
+	    	if(c==r||r+c==temp||r==1||r==5||c==1||c==5)
+	    	{
+	    		System.out.print("$ ");
+	    	}
+	    	else
+	    	{
+	    		System.out.print("  ");
+	    	}
+	    }
+	    System.out.println();
+	}
+}
+}

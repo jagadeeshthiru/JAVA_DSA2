@@ -1,0 +1,18 @@
+package com;
+
+public class Lenght {
+public static void main(String[] args) {
+	int num=12345;
+	
+	String str="";
+	int rem=0,length=0;
+	for(int x=0;x<=num;x++)
+	{
+		rem=num/10;
+		char ch=(char)rem;
+		str=str+ch;
+		System.out.println(str);
+	}
+	
+}
+}

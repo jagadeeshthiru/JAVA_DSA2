@@ -1,0 +1,13 @@
+package DAY2;
+
+public class Arr {
+ 
+	public static void main(String[] args) {
+		int a[]=new int[] {10,20,30,40,50},count=0;
+		for(int temp:a)
+		{
+			count++;
+		}
+		System.out.println(count);
+	}
+}

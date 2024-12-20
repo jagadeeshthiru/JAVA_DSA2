@@ -1,0 +1,33 @@
+package com;
+
+public class Anag {
+public static void main(String[] args) {
+   String s="listen";
+   String s1="silent";
+   char ch[]=s.toCharArray();
+   char ch1[]=s1.toCharArray();
+   for(int x=0;x<ch.length;x++)
+   {
+	   
+	   char c1=s.charAt(x);
+	   char c2=s.charAt(x+1);
+	   System.out.println(c1);
+	   if(c1>c2)
+	   {
+		   char temp=c1;
+		   c1=c2;
+		   c2=temp;
+		   x=-1;
+	   }
+   }
+   
+      
+	 
+
+   
+   for(char temp:ch)
+   {
+	  System.out.println(temp); 
+   }
+}
+}

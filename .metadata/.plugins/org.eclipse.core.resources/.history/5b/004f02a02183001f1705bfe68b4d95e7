@@ -1,0 +1,14 @@
+package DAY1;
+
+public class MAIN {
+	public static void main(String[] args) {
+		int a[]=new int[] {10,43,43,23,21,90};
+		int b[]=new int[a.length],sum=0;
+		for(int x=0;x<=a.length-1;x++)
+		{
+			sum=sum+a[x];
+			
+		}
+		System.out.println(sum);
+	}
+}

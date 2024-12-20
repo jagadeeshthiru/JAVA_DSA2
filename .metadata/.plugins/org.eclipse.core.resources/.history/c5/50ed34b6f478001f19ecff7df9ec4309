@@ -1,0 +1,13 @@
+package Extraction;
+
+public class MAXandSmax {
+	public static void main(String[] args) {
+		int num=1682876,max=0,rem=0;
+		for(;num>=0;)
+		{
+			rem=num%10;
+			System.out.println(rem);
+		}
+	}
+
+}

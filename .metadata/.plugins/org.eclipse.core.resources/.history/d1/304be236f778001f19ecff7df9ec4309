@@ -1,0 +1,35 @@
+package Extraction;
+
+public class MAXandSmax {
+	public static void main(String[] args) {
+		int num=1682876,max=0,rem=0,rev=0,temp=num,Smax=0,rem2=0;
+	while(num!=0)
+		{
+			rem=num%10;//6 7 8
+			
+				if(rem>max) //6>0  7>6 8>7
+				{
+					max=rem; //6 7 8
+					
+				}
+			num/=10;
+		}
+	System.out.println("the maximum nbr is: "+max);
+	  num=temp;
+	  System.out.println(" the nbr is: "+num);
+	  
+	  while(num!=0)
+	  {
+		  rem=num%10;
+		  if(rem2>Smax&&rem2!=max)
+		  {
+			  rem2=Smax;
+			  
+		  }
+		  num/=10;
+	  }
+	  System.out.println("the second max is: "+Smax);
+	
+	}
+
+}

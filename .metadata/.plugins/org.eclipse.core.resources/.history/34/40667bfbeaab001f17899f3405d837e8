@@ -1,0 +1,18 @@
+package Collecton;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+public class DLS {
+ public static void main(String[] args) {
+	List l1=new LinkedList(Arrays.asList(10,22,3,4,6,6,43));
+	l1.addFirst(12);
+	l1.addLast(34);
+//	l1.removeFirst();
+//	l1.removeLast();
+	l1.replaceAll(null);
+	System.out.println(l1);
+	
+}
+}

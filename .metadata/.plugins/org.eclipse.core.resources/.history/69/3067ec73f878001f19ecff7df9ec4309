@@ -1,0 +1,20 @@
+package Extraction;
+
+public class DivisionbyNbr {
+   public static void main(String[] args) {
+	int num=1234,rem=0,sum=0,div=0,temp=num;
+	while(num!=0)
+	  {
+		rem=num%10;
+		sum=sum+rem;
+		num=num/10;
+	  }
+	    System.out.println(sum);
+	    temp=num;
+	    System.out.println(num);
+	   while(num!=0)
+	    {
+		  
+	    }
+     }
+}

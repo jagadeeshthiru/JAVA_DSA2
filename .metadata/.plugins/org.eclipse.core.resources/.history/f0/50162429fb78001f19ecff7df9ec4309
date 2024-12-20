@@ -1,0 +1,27 @@
+package Extraction;
+
+public class SplitByTwo {
+	public static void main(String[] args) {
+		
+		int num=123456,rem=0,count=0,sum=0;
+		while(num!=0)
+		{
+			rem=num%10;
+			count++;
+			num=num/2;
+			if(count==1||count==2||count==3)
+			{
+				sum=sum+rem;
+				System.out.println("1st: "sum);
+			}
+			else
+			{
+				sum=sum+rem;
+				System.out.println("2nd: "+sum);
+			}
+		}
+
+	}
+
+
+}
